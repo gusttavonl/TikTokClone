@@ -1,0 +1,14 @@
+.sidebar{
+   position: absolute; /* estilização apartir do elemento mais proximo, como o top e right abaixo */
+   top: 50%;
+   right: 5%;
+   color: white;
+}
+
+.sidebarIcon{
+    padding: 20px;
+}
+
+.sidebarIcon > p{
+    margin-left: 9px;
+}

@@ -1,0 +1,13 @@
+.video{
+    position: relative; /* fazendo com que respeite as configurações de top, bottom e etc */
+    background-color: white;
+    width: 100%;
+    scroll-snap-align: start; /* com isso o scroll sempre pula pro proximo component */
+    height: 100%;
+}
+
+.videoPlayer{
+    object-fit: fill; /* faz com ele tente se enquadrar na div sem cortar nenhuma parte */
+    width: 100%;
+    height: 100%;
+}

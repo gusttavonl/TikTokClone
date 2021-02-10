@@ -1,0 +1,31 @@
+html{
+    scroll-snap-type: y mandatory; /* pra ter o scroll do eixo y */
+}
+
+.App{
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+
+.appVideos{
+  position: relative; /* dai posso alterar a posião do top, bottom, left e right */
+  height: 600px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 20px;
+  overflow: scroll;/* pro scroll ficar justamente nessa div como se fosse um celular*/ 
+  scroll-snap-type: y mandatory;
+}
+
+.appVideos::-webkit-scrollbar{ /* acessando as propiedades do scroll dessa dessa div */
+    display: none; /* fazendo a barra do scroll desaparece no chrome */
+
+}
+
+
+.appVideos{
+    -ms-overflow-style: none; /* mesma configuração de desaparecer scroll só que pro edge e ie */
+    scrollbar-width: none; /* o mesmo pro firefox */
+}

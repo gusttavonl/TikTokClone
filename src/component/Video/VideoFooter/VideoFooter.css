@@ -1,0 +1,25 @@
+.videoFooterText{
+    position: relative;
+    color: white;
+    bottom: 150px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.videoFooterText > h3{
+    padding-bottom: 20px;
+}
+
+.videoFooterText > p{
+    padding-bottom: 20px;
+}
+
+.videoFooterMusic{
+    width: 60%;
+}
+
+.videoFooterTicker{
+    margin-top: -25px;
+    margin-left: 20px;
+}
